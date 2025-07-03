@@ -6,18 +6,16 @@
 
 ### How to use 
 run the following commands in your terminal
-<ul>
-  <li>
-    gcc -o server server.c
-  </li>
-  <li>
-    gcc -o client client.c
-  </li>
-  <li>
-    ./server
-  </li>
-<li>
-  ./client
-</li>
 
-</ul>
+-  `gcc -o server server.c`
+
+- `gcc -o client client.c`
+
+- `./server`
+ 
+- `./client`
+
+
+### note: if client gets error creating "send_file.txt" , create it manually
+-  `touch send_file.txt`
+-  `echo "Test file" >> send_file.txt`
