@@ -16,6 +16,3 @@ run the following commands in your terminal
 - `./client`
 
 
-### note: if client gets error creating "send_file.txt" , create it manually
--  `touch send_file.txt`
--  `echo "Test file" >> send_file.txt`
